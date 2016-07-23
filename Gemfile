@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.3.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0'
@@ -16,6 +16,9 @@ gem 'puma', '~> 3.0'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+# Use ActiveModelSerializers to serialize JSON responses
+gem 'active_model_serializers', '~> 0.10.0'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
